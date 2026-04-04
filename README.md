@@ -21,8 +21,17 @@ Em desenvolvimento (validação será implementada)
 Praticar criação de interfaces modernas e melhorar habilidades em front-end.
 
 ## 🚀 Próximos passos
-- [ ] Validação de login com JavaScript
-- [ ] Mensagens de erro personalizadas
+- [x] Validação de login com JavaScript
+- [x] Mensagens de erro personalizadas
+- [ ] Redirecionamento para nova página
+
+## 🔑 Acesso para teste
+
+Este projeto utiliza uma autenticação simples para fins de estudo.
+
+Credenciais:
+- Usuário: Lucas  
+- Senha: 12345678
 
 ## 📷 Preview
 ![Login Preview](./assets/preview.png)
