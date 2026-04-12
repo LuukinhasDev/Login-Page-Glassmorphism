@@ -30,7 +30,7 @@
                 <label><input type="checkbox">Remember Me</label>
                 <a href="#">Esqueci a senha</a>
             </div>
-            <button type="submit" class="btn" onclick="logar()">Login</button>
+            <button type="submit" class="btn" onclick="logar(); return false">Login</button>
             <div class="register-link">
                 <p>Não possui uma conta? <a href="#">Registro</a></p>
             </div>
@@ -44,7 +44,8 @@
 
                 if (login == "Lucas" && senha == "12345678") {
                     alert("Login efetuado com sucesso");
-                }else{
+                    location.href = "home.html";
+                } else {
                     alert("Usuário ou senha incorretos");
                 }
             }
